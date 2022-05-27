@@ -4,15 +4,15 @@
 
 * Windows CMD
 
-### 0. Setup
+### 1. Setup
     docker build buildenv -t myos-buildenv
 
-### 1. Build
+### 2. Build
 
     docker run --rm -it -v "%cd%":/root/env myos-buildenv
 
-### 2. Emulate
+### 3. Emulate
     qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso
 
-### 3. Cleanup
+### 4. Cleanup
     docker rmi myos-buildenv -f
