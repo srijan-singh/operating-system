@@ -1,5 +1,11 @@
 # 64-bit Operating System Kernel
 
+## Prerequisites
+- A text editor such as [VS Code](https://code.visualstudio.com/).
+- [Docker](https://code.visualstudio.com/) for creating our build-environment.
+- [Qemu](https://www.qemu.org/) for emulating our operating system.
+
+
 ## Command
 
 * Windows CMD
