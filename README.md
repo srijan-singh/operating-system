@@ -1,5 +1,7 @@
 # 64-bit Operating System Kernel
 
+<img src="https://github.com/srijan-singh/operating-system/blob/main/res/64-Bit%20OS%20Kernel%20%E2%80%90%20Made%20with%20Clipchamp.gif">
+
 ## Prerequisites
 - A text editor such as [VS Code](https://code.visualstudio.com/).
 - [Docker](https://code.visualstudio.com/) for creating our build-environment.
