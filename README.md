@@ -4,6 +4,9 @@
 
 * Windows CMD
 
+### 0. Setup
+    docker build buildenv -t myos-buildenv
+
 ### 1. Build
 
     docker run --rm -it -v "%cd%":/root/env myos-buildenv
